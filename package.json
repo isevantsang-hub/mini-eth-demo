@@ -1,0 +1,33 @@
+{
+  "name": "mini-eth-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:solidity": "hardhat test solidity",
+    "test:node": "hardhat test nodejs",
+    "deploy:local": "hardhat ignition deploy ignition/modules/Counter.ts",
+    "deploy:sepolia": "hardhat ignition deploy --network sepolia ignition/modules/Counter.ts",
+    "send-op-tx": "hardhat run scripts/send-op-tx.ts",
+    "quickstart": "npm run compile && npm test && npm run deploy:local"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.3",
+    "@types/node": "^22.19.15",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.1.11",
+    "typescript": "~5.8.0",
+    "viem": "^2.47.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
