@@ -71,3 +71,4 @@
 - **[入门教程.md](./入门教程.md)**：编写 → 测试 → 部署 最简三步 + 一键 `quickstart`
 - **[如何生成新项目.md](./如何生成新项目.md)**：用本仓库当模板复制，或用脚手架脚本生成相同结构的新项目
 - **[定制模板-Hardhat3+Ignition+ERC20+前端.md](./定制模板-Hardhat3+Ignition+ERC20+前端.md)**：标准 monorepo 模板步骤（合约+前端联动）
+# mini-eth-token
