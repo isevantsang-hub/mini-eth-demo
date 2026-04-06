@@ -8,6 +8,7 @@ contract Counter {
 
   function inc() public {
     x++;
+    
     emit Increment(1);
   }
 
